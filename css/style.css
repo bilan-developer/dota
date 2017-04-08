@@ -1,0 +1,350 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+	background-color: #27323b;
+}
+
+.header, .content{
+	width: 1100px;
+	min-height: 200px;
+	margin: 0 auto;
+	border: 1px solid black; 
+	background: #f0f1f2;
+}
+.logo{
+	width: 100%;
+	background: black;
+}
+.logo{
+	width: 100%;
+}
+.image_backgraund {
+	width: 602px;
+	height: 339px;
+	margin: 0 auto;
+	background-image: url(../image/fon.jpg);
+	background-repeat: no-repeat;
+}
+.menu{
+	background: #0a0a0a;
+	width: 100%;	
+	display: block;
+	text-align: center;
+	margin: -14px auto;
+}
+ .main_menu >li{
+ 	display: inline-block; 	
+
+ }
+  .main_menu >li > a:hover{
+ 	color: #0b6678;
+ }
+ .main_menu > li > a{
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #fff;
+ 	font-size: 20px;
+ 	margin: 10px 40px; 
+ 	font-family: Verdana;    
+    font-weight: 400;
+    line-height: 1.1em;	
+ }
+ .footer{
+ 	background: #0a0a0a;
+ 	width: 1100px;
+	height: 50px;
+	margin: 0 auto;
+ }
+ /*/////////////Buy/////////////////*/
+.table_account, .info_account, .info_reviews, .info_index{
+	width: 1024px;
+	margin: 10px auto;
+} 
+.content_buy > h1{
+	text-align: center;
+	margin: 20px auto;
+}
+.block_1{
+	display: inline-block;
+	width: 240px;
+	margin: 5px;
+	border: 1px solid #dfdfdf;
+	background: #fff;
+	border-radius: 3px;
+	text-align: center;
+}
+.block_1:hover{
+	box-shadow: 1px 1px 3px #7f7f7f;
+    z-index: 999;
+}
+.text{
+    color: #232323;
+    display: block;
+    min-width: 130px;
+    font-family: Tahoma,Arial;
+    font-size: 16px;
+    height: 43px;
+    line-height: 1.4em;
+    overflow: hidden;
+    padding: 0px 5px 0px 15px;
+    text-align: left;
+    margin-top: -25px;
+    margin-bottom: -5px;
+}
+.block_button{
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	padding-bottom: 5px; 
+	position: relative;
+}
+.block_button > a:hover{
+	background: #0a91c0;
+}
+.block_button > a{
+	position: absolute;
+	display: inline-block;  
+    text-decoration: none;
+	padding: 5px 7px 7px 7px;
+	border-radius: 3px;
+    background: #0b6678;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 1.3em;
+    border: 0 none;
+    color: #fff;
+    font-family: Tahoma, Arial;
+    left: 0;
+
+}
+.price_account{	
+    color: #D90000;
+    display: block;
+    float: right;
+    font-size: 22px;
+    padding-left: 10px;
+    line-height: 15px;
+    text-align: right;
+}
+.currency{
+    clear: both;
+    color: #d90000;
+    display: block;
+    font-size: 10px;
+    line-height: 1em;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-top: 4px;
+    text-align: right;
+}
+/*////////////sale///////////*/
+.description{
+	border: 1px solid #dfdfdf;
+	padding: 5px;
+	margin-top: 20px;
+	background: #fff;
+}
+h1{
+	font-family: Verdana;
+    color: #565656;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1em;
+    margin: 25px 0;
+    text-decoration: none;
+}
+.contacts_info{
+	margin-bottom: 25px;
+	
+}
+.contacts_info > a{
+	border: 1px solid #dddfff;
+	min-width: 200px;	
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;		
+	margin: 0 66px;
+	padding: 15px 0;
+	background: #fff;
+	border-radius: 3px;
+	font-size: 16px;
+	line-height: 1.3em;
+	color: #0b6678;
+	font-weight: bold;
+	font-family: Tahoma, Arial;
+}
+.contacts_info > a:hover{
+	box-shadow: 1px 1px 3px #7f7f7f;
+    z-index: 999;
+}
+.presentation_goods{
+
+}
+.presentation_goods > div:nth-child(1),.presentation_goods > div:nth-child(2){
+	display: inline-block;
+}
+.presentation_goods > div:nth-child(2){
+	float: right;
+}
+.condition{
+	margin-right: -30px;
+    padding-top: 8px;
+    color: #0DB90D;
+    font-size: 20px;
+}
+.price_sale{
+    clear: both;
+    color: #d90000;
+    display: block;
+    float: right;
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 10px;
+}
+.condition, .button_buy{
+	display: inline-block;
+}
+
+.button_buy{	
+    padding: 10px 30px;
+    text-decoration: none;
+	font-size: 18px;
+    background-color: #f47e26;
+    color: #fff;
+    float: right;   
+}
+.button_buy:hover{
+	background-color: #e0680b;
+}
+.lot > .block_1{
+	float: right;
+	margin: 0;
+	margin-top: 10px;
+}
+/*///////////////index/////////////*/
+.info_index > h1{
+	text-align: center;
+	margin: 20px auto;
+}
+/*.slaider{
+	width: 700px;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+}*/
+.slaider{
+	margin:10px auto;
+	margin-bottom:11px;
+	width: 711px;
+	height:410px;
+	/*border:2px solid #424242;*/
+	padding:3px;
+}
+.slaider_box{
+	position:relative;
+	width: 711px;
+	height:400px;	
+	padding:5px;
+	background:#fff;
+
+}
+.bxslider{width:711px;	height:400px; margin-top: -3px;}
+.bx-prev{
+	position:absolute;
+	display:block;
+	width:36px;
+	height:36px;
+	background:url(../image/left.jpg) no-repeat;
+	margin:0;
+	text-indent:-99999px;
+	right:-54px;
+	top: 50%;
+	margin-top:-18px;
+}
+.bx-next{
+	position:absolute;
+	display:block;
+	width:36px;
+	height:36px;
+	background:url(../image/right.jpg) no-repeat;
+	margin:0;
+	text-indent:-99999px;
+	left:-54px;
+	top: 50%;
+	margin-top:-18px;
+}
+/*////////////reviews///////////*/
+.info_reviews > h1{
+	text-align: center;
+	margin: 20px auto;
+}
+.links_vk{
+	margin-bottom: 25px;
+	
+}
+.links_vk > a{
+	border: 1px solid #dddfff;
+	min-width: 200px;	
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;		
+	margin: 0 66px;
+	padding: 15px 0;
+	background: #fff;
+	border-radius: 3px;
+	font-size: 16px;
+	line-height: 1.3em;
+	color: #0b6678;
+	font-weight: bold;
+	font-family: Tahoma, Arial;
+}
+.links_vk > a:hover{
+	box-shadow: 1px 1px 3px #7f7f7f;
+    z-index: 999;
+}
+.reviews{
+	margin-top: 20px;
+	
+}
+.review{
+	position: relative;
+	border: 1px solid #dddfff;
+	margin: 10px;
+	background: #fff;
+}
+.review_nik, .review_date{
+	display: inline-block;
+	margin: 5px;
+}
+.review_nik{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.review_date{
+	position: absolute;
+	right: 0;
+	font-size: 12px;
+}
+.review_text{
+	margin: 0 5px 5px 5px;
+	padding-top: 5px; 
+	display: block;
+}
+.add_reviews{
+	display: inline-block;
+	padding: 10px 30px;
+    text-decoration: none;
+	font-size: 18px;
+    background-color: #f47e26;
+    color: #fff;
+    margin-left: 210px;
+}
